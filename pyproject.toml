@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tracelift"
+version = "0.1.0"
+description = "TraceLift reward-model and GRPO training code"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "accelerate>=0.33.0",
+  "datasets>=2.20.0",
+  "numpy>=1.23.0",
+  "peft>=0.12.0",
+  "safetensors>=0.4.3",
+  "torch>=2.1.0",
+  "tqdm>=4.66.0",
+  "transformers>=4.43.1",
+  "trl>=0.11.0",
+]
+
+[project.optional-dependencies]
+qlora = [
+  "bitsandbytes>=0.43.1",
+]
+deepspeed = [
+  "deepspeed>=0.14.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
