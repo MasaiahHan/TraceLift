@@ -22,7 +22,7 @@
   <p>
     <a href="https://arxiv.org/abs/2605.03862">📄 arXiv</a> ·
     <a href="https://huggingface.co/ScottHan/TraceLift">🤗 HF Model</a> ·
-    <a href="https://huggingface.co/ScottHan/TraceLift">📦 HF Dataset</a>
+    <a href="https://huggingface.co/datasets/ScottHan/TraceLift-Groups">📦 HF Dataset</a>
   </p>
 </div>
 
